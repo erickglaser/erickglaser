@@ -1,0 +1,30 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #000000;
+  max-width: 100% !important;
+  align-items: center;
+}
+
+.contato {
+  color: #b1b1b1;
+}
+
+.contato h3 {
+  color: #9be8d8;
+}
+
+.nome-footer {
+  color: #090909;
+  font-family: Rubik;
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.direitos p {
+  display: flex;
+  color: #b1b1b1;
+  text-align: center;
+}

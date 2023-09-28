@@ -1,0 +1,23 @@
+header {
+  margin-bottom: 0px;
+}
+
+ul {
+  padding-left: 0px;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+ul a {
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: 0.2s;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+}

@@ -1,0 +1,26 @@
+.projetos {
+  background-color: #1f1f1f;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.projetos-conteudo {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.projetos-conteudo img {
+  max-width: 350px;
+}
+.projetos-ferramentas {
+  display: Flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+.projetos-ferramentas p {
+  padding: 10px;
+  border-radius: 10px;
+  color: #232323;
+  margin: 0px;
+}

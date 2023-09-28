@@ -1,0 +1,13 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #1f1f1f;
+}
+
+.about img {
+  width: 100%;
+}
+.about-conteudo {
+  margin-left: 40px;
+  grid-column: 2/4;
+}

@@ -1,0 +1,17 @@
+.habilidades {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.habilidades-conteudo {
+  text-align: center;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.habilidades-centro {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
