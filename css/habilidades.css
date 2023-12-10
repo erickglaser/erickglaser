@@ -1,5 +1,5 @@
 .habilidades {
-  padding-top: 40px;
+ 
   padding-bottom: 40px;
 }
 
@@ -8,6 +8,8 @@
   justify-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .habilidades-centro {
