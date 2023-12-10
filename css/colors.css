@@ -5,20 +5,22 @@
 }
 .green {
   color: #9be8d8;
+  font-weight: 800;
 }
 .green2 {
   color: #39bea3;
 }
-.grey {
-  color: #4b4b4b;
-  font-size: 60px;
+
+
+.html  {
+  color: #f08e5d;
+ 
 }
-.html {
-  background-color: #f08e5d;
+.css  {
+  color: #44aeee;
+  
 }
-.css {
-  background-color: #44aeee;
-}
-.javascript {
-  background-color: #e8d11e;
+.javascript  {
+  color: #e8d11e;
+  
 }
