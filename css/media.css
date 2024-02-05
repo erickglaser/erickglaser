@@ -3,6 +3,12 @@
     max-width: 800px;
     margin: 0 auto;
   }
+  .about{
+    grid-template-columns: 1fr;
+  }
+  .about img {
+    display: none;
+  }
 
   .projetos-conteudo img {
     
@@ -13,15 +19,30 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
+    
+    justify-items: center;
+    
   }
 
+
+  .principal {
+    grid-template-columns: 1fr;
+    
+
+  }
+
+  .svg{
+    max-width: 340px;
+    justify-self: center;
+    margin-top: 60px;
+  }
   .principal h1::after {
     height: 1800px;
   }
   .detalhes-projetos {
     
     margin-bottom: 60px;
-   
+    height: fit-content;
   }
 
 }
@@ -64,10 +85,17 @@
   .about-conteudo {
     margin-left: 40px;
     grid-column: 1/4;
+    padding: 0px;
+  }
+  .about{
+    padding: 0px;
   }
 }
 
 @media (max-width: 430px) {
+
+  .svg{display: none;}
+
   ul {
     margin: 0px;
     margin-bottom: 20px;
