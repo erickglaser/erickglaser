@@ -1,0 +1,33 @@
+header {
+  margin-bottom: 50px;
+}
+
+header img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+ul {
+  padding-left: 0px;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+ul a {
+  padding: 10px 20px;
+  background-color: var(--background-color2);
+  text-decoration: none;
+  color: var(--color-font);
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
+ul a:hover {
+  background-color: var(--color-hover);
+}
