@@ -1,0 +1,3 @@
+[submodule "bikecraft"]
+	path = bikecraft
+	url = https://github.com/erickglaser/bikecraft
