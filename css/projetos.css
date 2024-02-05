@@ -55,10 +55,13 @@
 
 
 .detalhes-projetos {
-  display: block;
-  margin-bottom: 20px;
-  margin-top: 0px;
+  display: flex;
+  margin: 20px;
   color: #bbbbbb;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .link-projetos {
