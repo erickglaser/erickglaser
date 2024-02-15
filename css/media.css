@@ -92,9 +92,26 @@
   }
 }
 
+@media (max-width: 470px) {
+  ul a {
+    padding: 0px 0px;}
+    ul {
+      gap: 13px;
+    }
+
+}
+
 @media (max-width: 430px) {
 
   .svg{display: none;}
+  .principal {
+    margin-top: 90px;
+
+    margin-bottom: 0px;
+  }
+  .about{
+    padding-bottom: 0px;
+  }
 
   ul {
     margin: 0px;
@@ -111,4 +128,4 @@
     font-size: 3rem;
     margin: 0;
   }
-}
+  }
