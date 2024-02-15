@@ -1,3 +1,12 @@
 [submodule "bikecraft"]
 	path = bikecraft
 	url = https://github.com/erickglaser/bikecraft
+[submodule "Task"]
+	path = Task
+	url = https://github.com/erickglaser/Task
+[submodule "Tempo"]
+	path = Tempo
+	url = https://github.com/erickglaser/Tempo
+[submodule "slides_react"]
+	path = slides_react
+	url = https://github.com/erickglaser/slides_react
